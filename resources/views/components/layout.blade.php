@@ -11,10 +11,20 @@
     <title>Playground</title>
 </head>
 <body>
-    <main>
-        {{ $slot }}
-    </main>
+    <div>
+        <x-header/>
+    </div>
+
+    <div>
+        <x-sidebar/>
+        <main class="relative ml-[255px]">
+            <div class="p-4">
+                {{ $slot }}
+            </div>
+        </main>
+    </div>
     
     @livewireScripts
+    @vite('resources/js/app.js')
 </body>
 </html>

@@ -1,3 +1,3 @@
 <x-layout>
-    @livewire('home')
+    @livewire('home.index')
 </x-layout>
