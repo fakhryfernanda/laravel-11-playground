@@ -15,6 +15,10 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'deep-indigo': '#170F49',
+                'lavender-gray': '#6F6C90',
+            }
         },
     },
     plugins: [
