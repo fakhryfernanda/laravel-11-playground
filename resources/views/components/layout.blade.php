@@ -18,7 +18,7 @@
     <div>
         <x-sidebar/>
         <main class="relative ml-[255px]">
-            <div class="p-4">
+            <div class="">
                 {{ $slot }}
             </div>
         </main>

@@ -1,3 +1,3 @@
 <div class="p-4">
-    Fakhry
+    Register
 </div>
