@@ -1,16 +1,13 @@
 @props([
-    'name',
+    'name' => '',
     'required' => false,
 ])
 
-<div class="form-label-wrapper">
+<div>
     <label 
         for="{{ $name }}"
         {{ $attributes->merge([
-            'class' => @class([
-                'flex items-center text-sm font-medium',
-                'mb-1.5' => $name,
-            ])
+            'class' => 'block text-sm font-medium'
         ]) }}
     >
         {!! $name !!}
